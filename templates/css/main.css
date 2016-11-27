@@ -1,0 +1,25 @@
+body {
+      background-color: #DADADA;
+      color: grey;
+    }
+body > .grid {
+      height: 100%;
+      text-align: center;
+    }
+.image {
+      margin-top: -100px;
+    }
+.column {
+      max-width: 450px;
+    }
+
+body > button {
+    background: red;
+}
+html{
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: fantasy;
+}

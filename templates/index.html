@@ -1,0 +1,11 @@
+{% extends "background_layout.html" %}
+{% block title %} Create New Short UR{% endblock %}
+  {% block body %}
+  <form class="ui form" action="/shorten" method="post">
+    <div class="field">
+      <label>Input your URL</label>
+      <input type="text" name="input_url" placeholder="put your URL here">
+    </div>
+    <button class="shorten_button" type="submit">Submit</button>
+</form>
+  {% endblock %}
