@@ -5,7 +5,7 @@
 html,
 body {
   height: 100%;
-  background-color: #4791D2;
+  background-color: #4791FF;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 .btn-shorten {
   color: #ffffff;
   background-color: #F89406;
-  border: none;
+  border-radius: 50%;
 }
 
 .btn-shorten:hover,
@@ -25,10 +25,23 @@ body {
 .btn-shorten:active,
 .btn-shorten.active {
   color: #ffffff;
-  background-color: #FA8900;
+  background-color: #F89464;
   border: none;
+  border-radius: 50%;
 }
 
+.btn-copy{
+    color: #ffffff;
+    background-color: #F89406;
+    border-radius: 50%;
+}
+.btn-copy:focus,
+.btn-copy:active{
+    color: #ffffff;
+    background-color: #F89446;
+    border: none;
+    border-radius: 50%;
+}
 .site-wrapper {
   display: table;
   width: 100%;
